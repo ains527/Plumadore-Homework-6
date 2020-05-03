@@ -15,6 +15,8 @@
 		2713A1B8245E321700996D28 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2713A1B6245E321700996D28 /* LaunchScreen.storyboard */; };
 		2713A1C3245E321700996D28 /* Plumadore_Homework__6Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2713A1C2245E321700996D28 /* Plumadore_Homework__6Tests.swift */; };
 		2713A1CE245E321700996D28 /* Plumadore_Homework__6UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2713A1CD245E321700996D28 /* Plumadore_Homework__6UITests.swift */; };
+		2713A1DC245E363000996D28 /* VotingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2713A1DB245E363000996D28 /* VotingViewController.swift */; };
+		2713A1DE245E36FC00996D28 /* TBViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2713A1DD245E36FC00996D28 /* TBViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		2713A1C9245E321700996D28 /* Plumadore Homework #6UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Plumadore Homework #6UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2713A1CD245E321700996D28 /* Plumadore_Homework__6UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Plumadore_Homework__6UITests.swift; sourceTree = "<group>"; };
 		2713A1CF245E321700996D28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2713A1DB245E363000996D28 /* VotingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VotingViewController.swift; sourceTree = "<group>"; };
+		2713A1DD245E36FC00996D28 /* TBViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TBViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 				2713A1AD245E321500996D28 /* SceneDelegate.swift */,
 				2713A1AF245E321500996D28 /* ViewController.swift */,
 				2713A1B1245E321500996D28 /* Main.storyboard */,
+				2713A1DD245E36FC00996D28 /* TBViewController.swift */,
+				2713A1DB245E363000996D28 /* VotingViewController.swift */,
 				2713A1B4245E321700996D28 /* Assets.xcassets */,
 				2713A1B6245E321700996D28 /* LaunchScreen.storyboard */,
 				2713A1B9245E321700996D28 /* Info.plist */,
@@ -259,9 +265,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2713A1DE245E36FC00996D28 /* TBViewController.swift in Sources */,
 				2713A1B0245E321500996D28 /* ViewController.swift in Sources */,
 				2713A1AC245E321500996D28 /* AppDelegate.swift in Sources */,
 				2713A1AE245E321500996D28 /* SceneDelegate.swift in Sources */,
+				2713A1DC245E363000996D28 /* VotingViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
